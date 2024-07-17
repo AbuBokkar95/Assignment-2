@@ -4,47 +4,164 @@
 /* font-family: Inter, sans-serif; */
 
 /* Shared Styles */
-*{
+* {
     font-family: Inter, sans-serif;
     margin: 0;
-    background-color: black;
+    color: white;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
-.extrabold-italic{
+
+.extrabold-italic {
     font-size: 2.25rem;
     font-weight: 900;
     color: rgba(230, 83, 60, 1);
     font-style: italic;
 }
-.regular-text{
+
+.regular-text {
     font-size: 1.125rem;
     font-weight: 500;
 }
+
 /* Navbar styles */
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
-    margin: 3rem;
+    padding: 3rem;
 }
-.nav-list{
+
+.nav-list {
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
-.nav-list li{
+
+.nav-list li {
     list-style-type: none;
 }
-.nav-list li a{
+
+.nav-list li a {
     text-decoration: none;
     color: white;
 }
-.btn-primary{
+
+.btn-primary {
     background: rgba(230, 83, 60, 1);
     border: none;
     border-radius: 3rem;
     padding: 0.5rem 1.25rem;
     font-size: 1.125rem;
     font-weight: 600;
+    cursor: pointer;
+}
+
+/* Banner styles */
+.gradient {
+    background: linear-gradient(to top, #111111 100%, #777777 0%),
+        linear-gradient(to bottom, #111111 100%, #777777 0%);
+    margin: 0;
+}
+
+.banner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .banner-details {
+    margin: 3rem;
+    width: calc(50% - 6rem);
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.75rem;
+}
+
+.banner .banner-details .title {
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 4rem;
+}
+
+.banner .banner-details .title .miama {
+    font-weight: 400;
+    font-family: Miama, sans-serif;
+    font-size: 4.875rem;
+}
+
+.join-button {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+    border-radius: 2.625rem;
+    cursor: pointer;
+}
+
+.download-button {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2.625rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.banner-img-container {
+    margin-right: 7rem;
+}
+
+/* Card styles */
+.card-1,
+.card-2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0.8rem;
+    width: 20vw;
+    max-width: 180px; 
+    padding: 1.2rem;
+    position: absolute;
+}
+
+.card-1 {
+    top: 20rem;
+    right: 2rem;
+    max-width: 150px;
+}
+
+.card-2 {
+    top: 35rem;
+    right: 22rem;
+}
+
+.card-1 h5,
+.card-2 h5 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.card-1 p,
+.card-2 p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.card-2 .circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+    margin-right: 1rem;
+    /* Add margin to the right of the circle */
+}
+
+.card-2.display-flex {
+    display: flex;
+    align-items: center;
 }
