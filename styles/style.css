@@ -246,3 +246,61 @@ body{
     border: none;
     border-radius: 1rem;
 }
+/* Meet Our Team section Styles */
+.team{
+    padding: 4rem;
+}
+.team .heading h3{
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+.team .heading p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.team-section {
+    padding: 50px;
+    color: #fff;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-member {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.team-member .name {
+    color: #fff;
+    font-weight: 900;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.team-member .name span{
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
