@@ -92,6 +92,11 @@ body{
     font-family: Miama, sans-serif;
     font-size: 4.875rem;
 }
+.banner-details p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: normal;
+}
 
 .join-button {
     font-size: 1.125rem;
@@ -178,6 +183,7 @@ body{
     font-size: 4rem;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 0.875rem ;
 }
 .habit .title-container p{
     font-size: 0.875rem;
