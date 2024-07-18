@@ -310,3 +310,68 @@ body{
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
 }
+/* footer section styles */
+.all-footer{
+    padding: 4rem 4rem 1rem 4rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer{
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.footer .fitness{
+    width: 50%;
+}
+.footer .fitness h1{
+    font-size: 4.5rem;
+}
+.footer .fitness p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1.5rem;
+}
+.footer h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+.footer ul{
+    padding: 0;
+    
+}
+.footer li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.link{
+    flex-direction: column;
+    justify-content: start;
+}
+.line-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.custom-line {
+    width: 100%; 
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy-right p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
