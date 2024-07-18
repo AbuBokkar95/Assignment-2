@@ -9,6 +9,9 @@
     margin: 0;
     color: white;
 }
+body{
+    background-color: black;
+}
 
 .display-flex {
     display: flex;
@@ -203,4 +206,43 @@
 .card-container .card p{
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* Run section styles */
+.run{
+    margin: 4.5rem;
+    background-color: rgba(34, 34, 34, 1);
+    border: none;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 3rem;
+    gap: 4rem;
+}
+.run .details{
+    width: 60%;
+}
+.run h2{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.run p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1.5rem;
+}
+.padd{
+    padding: 1rem 4.5rem;
+}
+.run .img-container{
+    width: 60%;
+    height: 100%;
+}
+.run .img-container img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    border-radius: 1rem;
 }
